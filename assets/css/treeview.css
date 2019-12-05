@@ -1,0 +1,52 @@
+.tree-view *{
+	box-sizing: border-box;
+}
+.tree-view > .table{
+    background:#fff;
+    overflow-y:hidden;
+}
+.tree-view .thead > div,
+.tree-view .category{
+	display: flex;
+}
+.tree-view .thead > div > div,
+.tree-view .category > div{
+	display: flex;
+	flex-basis: 40px;
+	flex-grow:1;
+}
+.tree-view .thead > div > div{
+    font-weight: bold;
+}
+.tree-view .thead > div > div,
+.tree-view .category > div{
+    padding:8px;
+    border: 1px solid #f4f4f4;
+}
+
+.tree-view .summary{
+    padding:8px;
+}
+.tree-view > .table ._checkbox,
+.tree-view > .table ._radio,
+.tree-view > .table ._serial,
+.tree-view > .table .id{
+    max-width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tree-view > .table .id{
+	max-width: 80px;
+}
+.tree-view > .table .id input{
+	padding-left:2px;
+	padding-right:2px;
+}
+.tree-view > .table ._action{
+    max-width:150px;
+}
+.tree-view .tr.empty .empty{
+	max-width: initial;
+	padding:8px;
+}
