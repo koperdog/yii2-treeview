@@ -35,7 +35,7 @@ use yii\helpers\Html;
  * Based on [[yii\grid\RadioButtonColumn]]
  * Cloned to change namespace and add property - $attribute
  *  
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class RadioButtonColumn extends Column

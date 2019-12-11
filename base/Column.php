@@ -18,7 +18,7 @@ use yii\helpers\Html;
  * For more details and usage information on Column, see the [guide article on data widgets](guide:output-data-widgets).
  * Based on [[yii\grid\Column]]
  *  
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class Column extends BaseObject

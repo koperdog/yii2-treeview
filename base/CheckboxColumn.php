@@ -40,7 +40,7 @@ use yii\helpers\Json;
  * Based on [[yii\grid\CheckboxColumn]]
  * Cloned to change namespace and add property - $attribute
  *  
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class CheckboxColumn extends Column

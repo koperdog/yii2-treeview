@@ -24,7 +24,7 @@ namespace koperdog\yii2treeview\base;
  * Based on [[yii\grid\SerialColumn]]
  * Cloned to change namespace and add property - $attribute
  * 
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class SerialColumn extends Column

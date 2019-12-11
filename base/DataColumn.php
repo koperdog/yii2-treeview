@@ -36,7 +36,7 @@ use yii\helpers\Inflector;
  * 
  * Based on [[yii\grid\DataColumn]]
  *  
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class DataColumn extends Column

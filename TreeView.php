@@ -45,7 +45,7 @@ use yii\widgets\BaseListView;
  * 
  * Based on [[yii\grid\GridView]]
  * 
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 

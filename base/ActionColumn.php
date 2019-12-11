@@ -31,7 +31,7 @@ use yii\helpers\Url;
  * Based on [[yii\grid\ActionColumn]]
  * Cloned to change namespace and add property - $attribute
  *  
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class ActionColumn extends Column

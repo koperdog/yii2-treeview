@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 /**
  * This asset bundle provides the javascript files for the [[TreeView]] widget.
  *
- * @author Koperdog <koperdog@gmail.com>
+ * @author Koperdog <koperdog.dev@gmail.com>
  * @version 1.0.0
  */
 class TreeViewAsset extends AssetBundle
