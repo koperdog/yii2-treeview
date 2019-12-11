@@ -56,9 +56,9 @@ echo koperdog\yii2treeview\TreeView::widget([
 
 <details>
   <summary>Additional options</summary>
-```php
-#### depthPrefix - Prefix that displays depth (default " — ")
-#### depthRoot - Offset from the root (default 0)
-#### collaplse -if true, it will add the class "closed" to the node elements, and "tree-collapse" to the root of the tree (default false)
-```
+	
+##### depthPrefix - Prefix that displays depth (default " — ")
+##### depthRoot - Offset from the root (default 0)
+##### collaplse - if true, it will add the class "closed" to the node elements, and "tree-collapse" to the root of the tree (default false)
+
 </details>
