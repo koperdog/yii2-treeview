@@ -31,7 +31,10 @@ Add to your model field:
 ```php
 public $children = null;
 ```
+
 ### Has the same settings as GridView.
+Models in dataProvider should be sorted by tree and lft
+
 ```php
 echo koperdog\yii2treeview\TreeView::widget([
 	'dataProvider'  => $dataProvider,
