@@ -31,10 +31,7 @@ Add to your model field:
 ```php
 public $children = null;
 ```
-
 ### Has the same settings as GridView.
-Models in dataProvider must be sorted by tree and lft
-
 ```php
 echo koperdog\yii2treeview\TreeView::widget([
 	'dataProvider'  => $dataProvider,
@@ -49,20 +46,6 @@ echo koperdog\yii2treeview\TreeView::widget([
 	],
     ]);
 ```
-
-if you don't have column attribute name or title, for display depth use:
-```php
-'columns' => [
-...
-[
-    // your attribute options
-    'value' =>  function($model, $index, $key){
-    	return str_repeat(' — ', $model->depth).$model->attribute;
-    }
-],
-...
-```
-
 ### The column classes the same as GridView
 ```php
 ['class' => '\koperdog\yii2treeview\base\CheckboxColumn'],

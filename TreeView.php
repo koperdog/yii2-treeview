@@ -551,7 +551,7 @@ class TreeView extends BaseListView
             $options = $this->rowOptions;
         }
         
-        $options['data-id'] = is_array($key) ? json_encode($key) : (string) $key;
+        $options['data-id'] = $model->id;
         $class = ($this->collapse && $model->children !== null)? 'category closed' : 'category';
         
         $options['class'] = $options['class']? $options['class'].' '.$class : $class;

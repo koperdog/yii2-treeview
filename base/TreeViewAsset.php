@@ -24,7 +24,11 @@ class TreeViewAsset extends AssetBundle
         'css/treeview.css',
     ];
     
+    public $js = [
+        'js/yii.gridView.js',
+    ];
+    
     public $depends = [
-        'yii\grid\GridViewAsset',
+        'yii\web\YiiAsset',
     ];
 }
