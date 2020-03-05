@@ -195,6 +195,9 @@
                 $grid.find(inputs + ":enabled").prop('checked', this.checked).change();
             });
             initEventHandler($grid, 'checkRow', 'click.yiiGridView', inputsEnabled, function () {
+                
+                $(this).parent().parent().parent().find('input[name="selection[]"]').prop('checked', $(this).prop('checked')).change();
+                
                 var all = $grid.find(inputs).length == $grid.find(inputs + ":checked").length;
                 $grid.find("input[name='" + options.checkAll + "']").prop('checked', all).change();
             });
